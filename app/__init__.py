@@ -8,5 +8,5 @@ db.init_app(app)
 
 @app.route('/')
 def main_page():
-    return render_template('index.html')
+    return {'some': 'json'}
 
